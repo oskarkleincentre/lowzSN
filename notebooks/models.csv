@@ -1,0 +1,13 @@
+Model,O_m,O_lambda,NCr,NCk,omega
+Einstein de-Sitter,1.0,0.0,0.0,1.0
+Low Density,0.05,0.0,1.0,1.0
+High Lambda,0.2,0.8,1.0,0.0
+"O_m = .1, Omega_lamda = .9",0.1,0.9,1.0,0.0
+"O_m = .2, Omega_lamda = .8",0.2,0.8,1.0,0.0
+"O_m = .3, Omega_lamda = .7",0.3,0.7,1.0,0.0
+"O_m = .4, Omega_lamda = .6",0.4,0.6,1.0,0.0
+"O_m = .5, Omega_lamda = .5",0.5,0.5,1.0,0.0
+"O_m = .6, Omega_lamda = .4",0.6,0.4,1.0,0.0
+test_w1,0.3,0.7,0.0,0.0
+test_w2,0.3,0.7,0.0,0.0
+test_w3,0.3,0.7,0.0,0.0

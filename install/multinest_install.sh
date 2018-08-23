@@ -85,15 +85,15 @@ popd
 echo "------------------ libaray paths"
 
 echo "mnestdir=$mnestdir" > $snmachine_dir/setup.sh
-if [ $OSTYPE=='linux'* ] ; then
+echo "OS TYPE BEING FOUND ", $OSTYPE, $snmachine_dir
+if [ $OSTYPE == 'linux'* ] ; then
 	echo "found linux"
 	echo 'export LD_LIBRARY_PATH=$mnestdir/lib/:$LD_LIBRARY_PATH' >> $snmachine_dir/setup.sh
-elif [ $OSTYPE=='darwin'* ]; then
+#elif [ $OSTYPE == 'darwin'* ]; then
+else
        echo 'found mac'
        echo 'export DYLD_LIBRARY_PATH=$mnestdir/lib/:$DYLD_LIBRARY_PATH' >> $snmachine_dir/setup.sh
 		
-else
-	echo "other operating system, please set the library paths appropriately manually"
 fi
 	
 
